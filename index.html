@@ -16,6 +16,7 @@
 
   <style>
 
+
   html, body {
 
   height: 100%;
@@ -24,9 +25,10 @@
 
   margin: 0;
 
-  background: #000;
+  background-color:#000;
 
 }
+
 
 canvas {
 
@@ -44,24 +46,27 @@ canvas {
     height:100%;
     position: absolute;
     margin:auto;
-    font-size: 20;
+    font-size: 80;
     text-align:center;
     justify-content:center;
     align-items: center;
     flex-direction: column;
+
+
+}
+.img-main{
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.text-algin2{
- 
-    color:red
-}
   </style>
 
  </HEAD>
 
 
  <BODY>
-    <div class="text"  ><p class ="text-algin">Yêu Bé Trúc Nhiều nhắmmmm <br> </p><p class ="text-algin2">❤❤❤❤❤❤</p></div>
+    <div class="text"  ><img class ="img-main" src="/314675016_1581724832261796_5755864393723087636_n.jpg" alt="photo"><span class ="text-algin"id =text1><br> </span><span id ="text2"class ="text-algin2"></span></div>
   <canvas id="pinkboard"></canvas>
 
   <script>
@@ -532,7 +537,7 @@ var ParticlePool = (function() {
 })(document.getElementById('pinkboard'));
 
   </script>
-
+  <script src="/script.js"></script>
  </BODY>
 
 </HTML>
