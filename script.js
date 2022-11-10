@@ -85,4 +85,6 @@ window.onload =(e)=>{
     }
     
     animate();
+    
+    
 }

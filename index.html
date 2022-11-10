@@ -54,6 +54,9 @@ canvas {
 
 
 }
+.video{
+  display:none;
+}
 .img-main{
   position: absolute;
   max-width: 100%;
@@ -66,7 +69,9 @@ canvas {
 
 
  <BODY>
-    <div class="text"  ><img class ="img-main" src="/my-love/314675016_1581724832261796_5755864393723087636_n.jpg" alt="photo"><span class ="text-algin"id =text1><br> </span><span id ="text2"class ="text-algin2"></span></div>
+    <div class="text"  ><div class ="video"><video width="320" height="240"  controls autoplay>
+      <source src="/my-love/videoplayback.mp4" type="video/mp4" >
+    </video></div><img class ="img-main" src="/my-love/314675016_1581724832261796_5755864393723087636_n.jpg" alt="photo"><span class ="text-algin"id =text1><br> </span><span id ="text2"class ="text-algin2"></span></div>
   <canvas id="pinkboard"></canvas>
 
   <script>
