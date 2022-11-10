@@ -13,7 +13,7 @@ window.onload =(e)=>{
         "❤❤❤"
     ];
     
-    const morphTime = 1.5;
+    const morphTime = 1.0;
     const cooldownTime = 0.25;
     
     let textIndex = texts.length - 1;
